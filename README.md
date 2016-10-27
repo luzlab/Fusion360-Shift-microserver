@@ -1,0 +1,1 @@
+Allows Fusion360 to be a Worker in a Fusion Microservice Service system.
