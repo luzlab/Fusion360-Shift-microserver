@@ -7,8 +7,9 @@
 		"":	""
 	},
 	"version":	"0",
-	"runOnStartup":	true,
+	"runOnStartup":	false,
 	"supportedOS":	"windows|mac",
 	"autodeskLibraries":	["application", "dashboard", "geometry", "materials", "userInterface", "utilities", "bRep", "components", "construction", "features", "fusion", "meshBody", "meshData", "sketch", "tSpline", "operations", "cam"],
-	"editEnabled":	true
+	"editEnabled":	true,
+	"dynamicLoad": true
 }
