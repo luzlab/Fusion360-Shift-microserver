@@ -38,10 +38,10 @@ function createScriptCallback(args) {
   // command.isOKButtonVisible = false;
   // command.isCancelButtonVisible = false;
 
-  var log = ''
-  log += '**** Create callback\n';
-  log += 'Num of inputs :' + inputs.count;
-  ui.messageBox(log);
+  // var log = ''
+  // log += '**** Create callback\n';
+  // log += 'Num of inputs :' + inputs.count;
+  // ui.messageBox(log);
 }
 
 function executeScriptCallback(args) {
