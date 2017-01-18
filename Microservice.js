@@ -45,12 +45,14 @@ function createScriptCallback(args) {
 }
 
 function executeScriptCallback(args) {
-  var command = args.command;
-  var inputs = command.commandInputs;
+  // var command = args.command;
+  // var inputs = command.commandInputs;
   
+  var datafilePath = adsk.tempDirectory() 
+
   var log = ''
-  log += '**** Execute callback\n';
-  log += 'Num of inputs :' + inputs.count;
+  log += '**** Running script\n';
+  log += 'Path to tempdir :' + ;
   ui.messageBox(log);
 }
 
