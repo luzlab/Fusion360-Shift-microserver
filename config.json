@@ -1,0 +1,4 @@
+module.exports = {
+  shiftURL : "http://localhost:3000/agent",
+  serverDelay : 5000
+};
