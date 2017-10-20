@@ -13,7 +13,7 @@ function run(context) {
     var shiftURL =
         Shift.config.shiftURL +
         '/' +
-        Shift.config.agentRole +
+        Shift.config.microserverRole +
         '?cookie=' +
         encodeURIComponent(cookie) +
         '&adskEmail=' +
