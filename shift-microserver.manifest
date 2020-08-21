@@ -1,14 +1,32 @@
 {
-	"autodeskProduct":	"Fusion360",
-	"type":	"addin",
-	"author":	"Carlo Quinonez",
-	"description":	{
-		"":	""
+	"autodeskProduct": "Fusion360",
+	"type": "addin",
+	"author": "Carlo Quinonez",
+	"description": {
+		"": ""
 	},
-	"version":	"0.0.1",
-	"runOnStartup":	false,
-	"supportedOS":	"windows|mac",
-	"autodeskLibraries":	["application", "dashboard", "geometry", "materials", "userInterface", "utilities", "bRep", "components", "construction", "features", "fusion", "meshBody", "meshData", "sketch", "tSpline", "operations", "cam"],
-	"editEnabled":	false,
+	"version": "0.0.1",
+	"runOnStartup": false,
+	"supportedOS": "windows|mac",
+	"autodeskLibraries": [
+		"application",
+		"dashboard",
+		"geometry",
+		"materials",
+		"userInterface",
+		"utilities",
+		"bRep",
+		"components",
+		"construction",
+		"features",
+		"fusion",
+		"meshBody",
+		"meshData",
+		"sketch",
+		"tSpline",
+		"operations",
+		"cam"
+	],
+	"editEnabled": false,
 	"dynamicLoad": false
 }
